@@ -62,7 +62,7 @@ Cette méthode étant plus fléxible, on peut proposer quelques cas d'usage part
 
 **Remplissage d'une caisse de trésorerie :** Une caisse pour amortir les blocage peut être remplie par une cotisation comme décrit dans le paragraph précedent. C'est aussi possible que dans le cas d'une vente où la somme des prix idéal des acheteur·ices est supérieur à la somme des prix idéal des vendeur·euses le surplus soit capté dans la caisse plutôt que redistribué comme la méthode le prévoit.
 
-#### 2.2.a - Résolution des blocage
+#### 2.2.b - Résolution des blocage
 
 Pour résoudre les blocages pour cette méthode les solution "automatiques" sont :
 
@@ -74,4 +74,16 @@ Pour résoudre les blocages pour cette méthode les solution "automatiques" sont
 
 ### 2.3 - Achat et vente à prix libre, stock imparfait
 
-_À écrire_
+Pour simplifier la coordination des acheteur·ices et des vendeur·euses, il est possible que chaque acheteur·ices note quel quantité d'un produit iel veut, et que chaque vendeur·euses note quelle quantité iel peut vendre. Ensuite la quantité vendu d'un produit est le minimum entre la somme des stock vendu et des stock demandé à l'achat.
+
+Il y aura alors soit une proportion des demande des acheteur·ices qui ne sera pas rempli, ou des stock des vendeur·euses qui ne sera pas vendu. Si les objet vendu ne sont vendable qu'à l'unité pour réajuster par exemple 50 produit demandé mais seulement 30 vendu on peut utiliser la _méthode utilisée dans les éléctions municipale francaise_ pour assigner les 30 produit aux acheteur·ices en approchant le plus possible 3/5 de leur commande.
+
+| **_Situation_** | Les acheteur·ices commande deux fois plus d'un produit que les vendeur·euses en vende. | Les acheteur·ices commande autant d'un produit que les vendeur·euses en vende. | Les acheteur·ices commande deux fois moins d'un produit que les vendeur·euses en vende. |
+|  :----------------  | :------: | :------:  |  :------:  |
+| **_Quantité pour les acheteur·ices_** |  Les acheteur·ices recoivent seulement la moitié de leurs commandes. | Les acheteur·ices recoivent leur commande en entier. | Les acheteur·ices recoivent leur commande en entier.  |
+| **_Quantité pour les vendeur·euses_** | Les vendeur·euses vendent l'entièreté de leur stock. | Les vendeur·euses vendent l'entièreté de leur stock. | Les vendeur·euses vendent la moitié de leur stock. |
+
+Sachant que les stock vendu et acheté ne le sont pas entierement, il est possible de réajuster les prix de vente/achat selont plusieur strategies :
+ - Si on sépare par produit les prix idéal, maximum et minimum, multiplier chaque prix par la proportion de la commande/vente qui sera obtenue/vendue.
+ - Si il y a un surplus de stock à vendre et que la commande peut se faire sans blocage, faire la commande en achetant l'entièreté du stock, et soit redistribuer le surplus de stock proportionnelement aux acheteur·ices, soit le donner à des association ou autre. Ca permet de garentir aux vendeur·euses la vente de leur stock.
+ - Accepter que au même prix on risque de ne recevoir qu'une partie de sa commande, il serait possible d'indiquer une limite, ou de demander la confirmation avant de confirmer la commande.
